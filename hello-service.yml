@@ -12,11 +12,11 @@ greeting: "This is STAGE server."
 spring:
     profiles: dev
 
-greeting: "This is DEV server modified."
+greeting: "This is DEV server."
 
 ---
 
 spring:
     profiles: local
 
-greeting: "This is LOCAL server."
+greeting: "This is LOCAL server modified."
