@@ -1,19 +1,23 @@
+port: 8081
 greeting: "Hello"
 
 ---
 
 spring:
     profiles: stage
+port: 8082
 greeting: "This is STAGE server."
 
 ---
 
 spring:
     profiles: dev
+port: 8083
 greeting: "This is DEV server."
 
 ---
 
 spring:
     profiles: local
+port: 8084
 greeting: "This is LOCAL server."
