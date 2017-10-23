@@ -19,4 +19,4 @@ greeting: "This is DEV server."
 spring:
     profiles: local
 
-greeting: "This is LOCAL server."
+greeting: "This is LOCAL server modified."
